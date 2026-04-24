@@ -112,11 +112,11 @@ public class SnakeGame extends JPanel implements ActionListener {
             timer.stop();
         }
     }
-
+// updated game
     public void gameOver(Graphics g) {
         g.setColor(Color.red);
-        g.setFont(new Font("Ink Free", Font.BOLD, 40));
-        g.drawString("Game Over", 180, 300);
+        g.setFont(new Font("Ink Free", Font.BOLD, 50));
+        g.drawString("Game Over", 200, 300);
     }
 
     @Override
@@ -152,7 +152,6 @@ public class SnakeGame extends JPanel implements ActionListener {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         SnakeGame gamePanel = new SnakeGame();
-
         frame.add(gamePanel);
         frame.setTitle("Snake Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
