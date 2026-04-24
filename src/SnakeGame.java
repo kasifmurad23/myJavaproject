@@ -148,7 +148,7 @@ public class SnakeGame extends JPanel implements ActionListener {
             }
         }
     }
-
+//final update just for github settings
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         SnakeGame gamePanel = new SnakeGame();
